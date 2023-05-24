@@ -1,0 +1,338 @@
+.form{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
+.form-body{
+    position: relative;
+    display: inline-block;
+    width: 80vw;
+    height: fit-content;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    font-size: 3vh;
+    font-family: "Noto Sans";
+    color: rgb(66, 183, 222);
+    box-shadow: 0px 0px 10px 5px rgb(66, 183, 222);
+}
+
+.form-body input:focus{
+    border: 0px;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+.form-team-title{
+    display: none;
+}
+
+.form-team-name{
+    position: relative;
+    font-family: "Lobster";
+    font-size: 5vh;
+    width: 80%;
+    border: 0px;
+    border-bottom: 2px solid white;
+    background-color: rgb(56, 152, 184, 0.6);
+    text-align: center;
+    color: white;
+}
+
+.form-team-name::placeholder{
+    color: whitesmoke;
+}
+
+.form-team-name:focus{
+    background-color: rgb(56, 152, 184, 0.9);
+}
+
+.form-main{
+    position: relative;
+}
+
+.player-inc-button{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    font-family: "ProductSans";
+    font-size: 25px;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.player-inc-button:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.form-row{
+    position: relative;
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-col1{
+    position: relative;
+    flex: 70%;
+}
+
+.form-col2{
+    position: relative;
+    flex: 30%;
+}
+
+.form-col2 input{
+    width: 100%;
+    height: 3vh;
+    font-size: 3vh;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.form-col2 input:focus{
+    background-color: rgb(0, 0, 0, 1);
+}
+
+.form-agreement{
+    position: relative; 
+    margin-top: 5vh;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 2.5vh;
+}
+
+.form-agreement input{
+    height: 1.5vh;
+    width: 1.5vh;
+}
+
+.button-frame{
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 80%;
+}
+
+.button-frame-reset{
+    position: relative;
+    margin-top: 5vh;
+    flex: 33%;
+}
+
+.button-frame-apply{
+    position: relative;
+    margin-top: 5vh;
+    flex: 33%;
+}
+
+.button-frame-payment{
+    position: relative;
+    margin-top: 5vh;
+    flex: 33%;
+}
+
+.button-reset{
+    position: relative;
+    background-color: whitesmoke;
+    font-family: "ProductSans";
+    font-size: 3vh;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    color: red;
+    transition: color 0.1s;
+    transition: background-color 0.1s;
+}
+
+.button-reset:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: red;
+}
+
+.button-apply{
+    position: relative;
+    background-color: whitesmoke;
+    color: blue;
+    font-family: "ProductSans";
+    font-size: 3vh;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    transition: color 0.1s;
+    transition: background-color 0.1s;
+}
+
+.button-apply:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.button-payment{
+    position: relative;
+    background-color: whitesmoke;
+    color: green;
+    font-family: "ProductSans";
+    font-size: 3vh;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    transition: color 0.1s;
+    transition: background-color 0.1s;
+}
+
+.button-payment:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: green;
+}
+
+.payment-screen-container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    text-align: center;
+}
+
+.payment-screen{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 70%;
+    overflow-x: visible;
+    overflow-y: scroll;
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    font-family: "Comme";
+    font-size: 2vh; 
+}
+
+.payment-screen-details{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.payment-cancel{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.payment-cancel:hover{
+    cursor: pointer;
+}
+
+.payment-screen-qr{
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+.payment-screen-pid{
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    border: 0px;
+    background-color: rgb(192, 192, 192);
+    border-bottom: 2px solid black;
+    height: 2.5vh;
+    font-size: 2vh;
+    font-family: "Comme";
+    text-align: center;
+}
+
+.payment-screen-pid:focus{
+    border: 0px;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+.payment-screen-verify{
+    position: relative;
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "ProductSans";
+    border-radius: 5px;
+}
+
+.payment-screen-verify:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 219);
+}
+
+@media only screen and (max-width: 1000px){
+    .form-body{
+        font-size: 20px;
+        padding-top: 2vh;
+    }
+
+    .form-team-title{
+        display: block;
+        position: relative;
+        font-family: "Lobster";
+        font-size: 5vh;
+    }
+
+    .form-team-name{
+        font-size: 30px;
+    }
+
+    .form-team-name::placeholder{
+        color: transparent;
+    }
+
+    .form-col2 input{
+        font-size: 20px;
+    }
+
+    .form-row{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .form-agreement{
+        font-size: 20px;
+    }
+
+    .payment-screen{
+        width: 300px;
+    }
+
+    .payment-screen-qr{
+        width: 80%;
+    }
+}
+
+@font-face {
+    font-family: ProductSans;
+    src: url('./Product\ Sans\ Bold.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');

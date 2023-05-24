@@ -1,0 +1,10 @@
+.login-box{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 200px;
+    padding: 50px;
+    background-color: grey;
+    border: 5px solid black;
+}

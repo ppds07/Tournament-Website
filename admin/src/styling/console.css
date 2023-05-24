@@ -1,0 +1,25 @@
+.console-body{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.team{
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.team-table{
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+}
+
+.team-table td{
+    border: 1px solid black;
+}
+
+.team-table th{
+    border: 1px solid black;
+}

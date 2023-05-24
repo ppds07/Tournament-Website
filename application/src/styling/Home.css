@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+@font-face {
+    font-family: valorant;
+    src: url('./Valorant\ Font.ttf');
+}
+
+@font-face {
+    font-family: ProductSans;
+    src: url('./Product\ Sans\ Bold.ttf');
+}
+
+.homepage{
+    position: relative;
+    width: 100%;
+}
+
+.title{
+    position: relative;
+    padding-top: 15vh;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.title-1{
+    position: relative;
+    left: -1920px;
+    margin-left: 50px;
+    width: fit-content;
+    max-width: 80%;
+    word-wrap: break-word;
+    font-family: 'valorant';
+    font-size: 10vh;
+    line-height: 0.75em;
+    background-color: rgb(245, 245, 245, 0.8);
+    color: black;
+    padding-top: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-2{
+    position: relative;
+    left: -1920px;
+    margin-left: 50px;
+    width: fit-content;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 10vh;
+    line-height: 0.7em;
+    font-family: 'valorant';
+    background-color: rgb(245, 245, 245, 0.8);
+    color: black;
+    padding-top: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#typed-text{
+    position: relative;
+    width: fit-content;
+    color: white;
+    font-size: 5vh;
+    font-family: "Saira Condensed";
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5vh;
+}
+
+.apply-container{
+    position: relative;
+    min-height: 35vh;
+}
+
+.apply-button{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-family: "ProductSans";
+    margin-left: 20%;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    opacity: 0;
+    transition: box-shadow 0.4s;
+}
+
+.apply-button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px white;
+}
+
+.venue{
+    position: relative;
+    width: 70vw;
+    height: fit-content;
+    margin-left: 10vw;
+    box-shadow: 0px 0px 5px 2px rgb(66, 183, 222);
+    background-color: black;
+    cursor: default;
+}
+
+.venue-title{
+    position: relative;
+    top: -35px;
+    left: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 35px;
+    font-family: "Bruno Ace SC";
+    background-color: rgb(66, 183, 222);
+    color: black;
+}
+
+.venue-details{
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    padding-right: 10%;
+    font-family: "Bruno Ace SC";
+    color: rgb(66, 183, 222);
+}
+
+.gmaps-link{
+    width: 60%;
+    height: 450px;
+}
+
+.venue-details-hidden{
+    position: relative;
+    opacity: 0;
+    line-height: 2em;
+    font-size: 3vh;
+}
+
+.details{
+    position: relative;
+    width: 70vw;
+    height: fit-content;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 5px 2px rgb(66, 183, 222);
+    background-color: black;
+    cursor: default;
+}
+
+.click-me{
+    position: relative;
+}
+
+.details-title{
+    position: relative;
+    top: -35px;
+    left: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 35px;
+    font-family: "Bruno Ace SC";
+    background-color: rgb(66, 183, 222);
+    color: black;
+}
+
+.details-details{
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    padding-right: 10%;
+    font-family: "Bruno Ace SC";
+    color: rgb(66, 183, 222);
+}
+
+.details-details-hidden{
+    position: relative;
+    opacity: 0;
+    line-height: 2em;
+    font-size: 3vh;
+}
+
+.rules{
+    position: relative;
+    width: 70vw;
+    height: fit-content;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 5px 2px rgb(66, 183, 222);
+    background-color: black;
+    cursor: default;
+}
+
+.rules-title{
+    position: relative;
+    top: -35px;
+    left: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 35px;
+    font-family: "Bruno Ace SC";
+    background-color: rgb(66, 183, 222);
+    color: black;
+}
+
+.rules-rules{
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    padding-right: 10%;
+    font-family: "Bruno Ace SC";
+    color: rgb(66, 183, 222);
+}
+
+.rules-rules-hidden{
+    position: relative;
+    opacity: 0;
+    line-height: 2em;
+    font-size: 3vh;
+}
+
+.sponsers-container{
+    position: relative;
+    margin-top: 10vh;
+    width: 100%;
+    min-height: 20vh;
+    height: fit-content;
+    background-color: black;
+    text-align: center;
+}
+
+.sponsers-title{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-size: 3vh;
+    width: fit-content;
+    height: fit-content;
+    font-family: "ProductSans";
+    padding: 10px;
+}
+
+.sponsers{
+    position: relative;
+    display: flex;
+}
+
+.main-sponser{
+    position: relative;
+    flex: 50%;
+    border-right: 2px solid whitesmoke;
+    padding-bottom: 5vh;
+}
+
+.main-sponser p{
+    display: inline-block;
+    position: relative;
+    font-size: 2.5vh;
+    font-family: "valorant";
+    width: fit-content;
+    border-bottom: 2px solid whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main-sponser img{
+    position: relative;
+    height: 15vh;
+}
+
+.co-sponser{
+    position: relative;
+    flex: 50%;
+    padding-bottom: 5vh;
+}
+
+.co-sponser p{
+    display: inline-block;
+    position: relative;
+    font-size: 2.5vh;
+    font-family: "valorant";
+    width: fit-content;
+    border-bottom: 2px solid whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.co-sponser-container{
+    position: relative;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.co-sponser-container img{
+    flex: wrap;
+    position: relative;
+    height: 7.5vh;
+}
+
+.select-status-container{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.select-status{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    margin-top: 10%;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.status-hide{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.status-hide:hover{
+    cursor: pointer;
+}
+
+.status-button{
+    display: inline-block;
+    position: relative;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: 30px;
+    width: 70%;
+    font-size: 25px;
+    font-family: "Comme";
+    padding: 10px 0px;
+    transition: transform 0.2s;
+}
+
+.status-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px){    
+    .title{
+        padding-top: 10vh;
+        min-height: 30vh;
+    }
+    
+    .title-1{
+        margin-left: 0px;
+        line-height: normal;
+        font-size: 40px;
+    }
+
+    .title-2{
+        margin-left: 0px;
+        line-height: normal;
+        font-size: 30px;
+    }
+
+    #typed-text{
+        margin-left: 0px;
+        font-size: 30px;
+        box-decoration-break: clone;
+    }
+
+    .apply-container{
+        min-height: 22vh;
+    }
+
+    .apply-button{
+        margin-left: 10%;
+        font-size: 30px;
+    }
+
+    .venue{
+        width: 80vw;
+    }
+
+    .venue-title{
+        left: 40px;
+    }
+
+    .venue-details{
+        padding-right: 0;
+    }
+
+    .gmaps-link{
+        width: 80%;
+        height: 200px;
+    }
+
+    .venue-details-hidden{
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .details{
+        width: 80vw;
+    }
+
+    .details-title{
+        left: 40px;
+    }
+
+    .details-details{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .details-details-hidden{
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .rules{
+        width: 80vw;
+    }
+
+    .rules-title{
+        left: 40px;
+    }
+
+    .rules-rules{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .rules-rules-hidden{
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .click-me{
+        padding-left: 30px;
+    }
+
+    .sponsers{
+        display: block;
+    }
+
+    .main-sponser{
+        border: 0px;
+    }
+
+    .co-sponser-container{
+        display: block;
+    }
+}
